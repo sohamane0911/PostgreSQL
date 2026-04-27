@@ -968,7 +968,7 @@
  966 | Toby         | Trafford          |  22 | Kréstena                   | IT     | 5.88 | f         | 2023-05-28
  967 | Vernen       | Lamplough         |  24 | Taesal-li                   | CIVIL  | 6.90 | t         | 2025-08-15
  968 | Joly         | MacElharge        |  24 | Banyumas                    | CSE    | 2.06 | t         | 2020-10-14
- 969 | Joshua       | Palk              |  24 | Qal‘at al Andalus         | CIVIL  | 1.71 | f         | 2022-12-11
+ 969 | Joshua       | Palk              |  24 | Qalat al Andalus         | CIVIL  | 1.71 | f         | 2022-12-11
  970 | Christal     | Phateplace        |  18 | Klerksdorp                  | CIVIL  | 1.17 | f         | 2021-09-13
  971 | Chico        | Kittredge         |  23 | Beisijia                    | CSE    | 2.43 | f         | 2022-06-22
  972 | Bancroft     | Spencers          |  23 | Huskvarna                   | EEE    | 2.07 | t         | 2021-05-16
