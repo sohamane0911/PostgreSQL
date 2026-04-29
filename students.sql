@@ -110,3 +110,31 @@ SELECT * FROM students WHERE first_name ILIKE 'S%' AND branch != 'CSE' order by 
 
 -- Average cgpa per branch for cities containing 'ae', top 3 by avg cgpa
 SELECT branch, AVG(cgpa) AS avg_sgpa FROM students WHERE city ILIKE '%ae%' GROUP BY branch ORDER BY avg_sgpa LIMIT 3;
+
+
+-- 29/04/26
+
+
+TRUNCATE TABLE person;
+
+-- Selects all rows from person (was empty after truncate)
+SELECT * FROM PERSON;
+
+\i C:/person.sql
+
+SELECT pg_get_serial_sequence('person', 'id');
+
+-- Resets the ID auto-increment counter back to 1
+ALTER SEQUENCE person_id_seq RESTART WITH 1;
+
+SELECT * FROM person;
+
+TRUNCATE TABLE person;
+ALTER SEQUENCE person_id_seq RESTART WITH 1;
+\i C:/person.sql
+
+SELECT * FROM person;
+
+SELECT country_of_birth, COUNT(*) FROM person GROUP BY country_of_birth HAVING COUNT(*) > 5 ORDER BY country_of_birth;
+
+SELECT country_of_birth, COUNT(*) FROM person GROUP BY country_of_birth ORDER BY country_of_birth;
